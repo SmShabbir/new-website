@@ -41,3 +41,72 @@
 .Pillars {
     padding: 30px 160px;
 }
+.innovation{
+padding: 10px 20px;
+background-color: aliceblue;
+margin: 5px 1100px 5px 160px; 
+border-radius: 10px;
+gap: 24px;
+}
+.innov{
+    display:
+}
+
+.vision {
+    padding: 30px 160px;s
+}
+
+.digital{
+padding: 10px 20px 10px 10px;
+background-color: rgb(148, 196, 245);
+margin: 5px 950px 5px 160px; 
+border-radius: 10px;
+}
+.green{
+background-color: rgb(159, 215, 159);
+padding: 10px 20px 10px 10px;
+margin: 5px 950px 5px 160px; 
+border-radius: 10px;
+}
+
+.modern{
+background-color: rgb(216, 241, 142);
+padding: 10px 20px 10px 10px;
+margin: 5px 950px 5px 160px; 
+border-radius: 10px;
+}
+
+.yunus{
+    
+    padding: 48px 24px;
+    background-color: #f4ded0;
+    margin: 5px 160px 5px 160px;
+    border-radius: 10px;
+}
+.option{
+     margin: 15px 160px 5px 160px;
+}
+
+
+.recent{
+    padding: 30px 160px;
+}
+
+.until{
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: #ecf7f2;
+    margin: 5px 160px 5px 160px;
+    border-radius: 10px;
+}
+.read{
+    background-color: #3d9d62;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+    color: #fafffd;   
+}
+
+.donate{
+    text-align: center;
+}
