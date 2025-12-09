@@ -84,7 +84,17 @@ border-radius: 10px;
     border-radius: 10px;
 }
 .option{
-     margin: 15px 160px 5px 160px;
+    padding: 30px 160px;
+}
+
+
+.question{
+    padding: 20px 40px;
+    background-color: #0b7a48;
+    margin: 5px 160px 5px 160px;
+    border-radius: 10px;    
+
+
 }
 
 
@@ -106,7 +116,77 @@ border-radius: 10px;
     border-radius: 3px;
     color: #fafffd;   
 }
-
 .donate{
     text-align: center;
+}
+
+.taka{
+    background-color: #eef6f1;
+    gap: 20px;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 1150px 5px 190px;
+    text-align: center;
+}
+.money{
+
+    }
+
+.other{
+background-color: #fafbfa;
+    gap: 50px;
+    padding: 20px 10px 20px 10px;
+    margin: 5px 190px 5px 190px;
+    text-align: center;
+    color: rgb(111, 114, 114);
+}
+
+.done{
+    background-color: #135527;
+    padding: 15px 15px 15px 15px;
+    margin: 5px 190px 5px 700px;
+    border-radius: 8px;
+    color: #fafffd; 
+    margin-bottom: 60px;
+}
+
+.enter{
+    background-color: #fafbfa;
+    gap: 50px;
+    padding: 20px 10px 20px 10px;
+    margin: 5px 270px 5px 190px;
+    text-align: center;
+    color: rgb(139, 143, 143);
+}
+.subscribe{
+    background-color: #982253;
+    gap: 50px;
+    padding: 20px 10px 20px 10px;
+    margin: 5px 690px 5px 690px;
+    text-align: center;
+    color: rgb(247, 255, 255);
+}
+
+.subscribe-email{
+ 
+}
+
+.we{
+    text-align: center;
+}
+
+.newsletter{
+    
+   
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: #0b7a48;
+    margin: 5px 160px 5px 160px;
+    border-radius: 10px;    
+
+}
+
+.icons{
+    text-align: center;
+    margin-bottom: 100px;
 }
