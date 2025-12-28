@@ -42,37 +42,45 @@
     padding: 30px 160px;
 }
 .innovation{
-padding: 10px 20px;
+padding: 10px 5px;
 background-color: aliceblue;
-margin: 5px 1100px 5px 160px; 
+margin: 5px 5px 5px 160px; 
 border-radius: 10px;
 gap: 24px;
 }
-.innov{
-    display:
+
+.innovation-container{
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .vision {
     padding: 30px 160px;s
 }
 
+.container{
+    display: flex;
+    align-self: stretch;
+    
+}
 .digital{
 padding: 10px 20px 10px 10px;
 background-color: rgb(148, 196, 245);
-margin: 5px 950px 5px 160px; 
+margin: 5px 5px 5px 160px; 
 border-radius: 10px;
 }
 .green{
 background-color: rgb(159, 215, 159);
 padding: 10px 20px 10px 10px;
-margin: 5px 950px 5px 160px; 
+margin: 5px 5px 5px 160px; 
 border-radius: 10px;
 }
 
 .modern{
 background-color: rgb(216, 241, 142);
 padding: 10px 20px 10px 10px;
-margin: 5px 950px 5px 160px; 
+margin: 5px 5px 5px 160px; 
 border-radius: 10px;
 }
 
@@ -119,13 +127,17 @@ border-radius: 10px;
 .donate{
     text-align: center;
 }
+.taka-container{
+    display: flex;
+
+}
 
 .taka{
     background-color: #eef6f1;
     gap: 20px;
     border-radius: 6px;
     padding: 10px 10px 10px 10px;
-    margin: 5px 1150px 5px 190px;
+    margin: 5px 5px 5px 190px;
     text-align: center;
 }
 .money{
