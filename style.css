@@ -61,7 +61,6 @@ gap: 24px;
 
 .container{
     display: flex;
-    align-self: stretch;
     
 }
 .digital{
@@ -129,6 +128,8 @@ border-radius: 10px;
 }
 .taka-container{
     display: flex;
+    grid-gap: 20px;
+
 
 }
 

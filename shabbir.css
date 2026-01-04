@@ -1,0 +1,144 @@
+        
+        /*Navigation bar section */
+        nav a{
+            text-decoration:none;
+            color: rgb(23, 22, 22);
+            background-color: rgb(242, 227, 95);
+            border: solid 2px rebeccapurple;
+            border-radius: 5px;
+            padding: 4px;
+            }
+
+        nav{background-color: rgb(245, 233, 204);
+            display: flex;
+            justify-content: space-between;
+           }  
+
+        .hire{
+            background: #308b5e;
+            padding: 10px;
+            border-radius: 8px;
+           }
+
+        .welcome{
+            text-align: center;
+            color: blueviolet;
+            }
+        /*Picture Section*/
+        .pic{
+            border-radius: 7px;
+            width: 400px;
+            height: 500px;
+            margin-bottom: 460px;
+            margin-top: 10px;
+           }
+
+         /*------First Title containt" I'm a new Devoloper-------*/  
+        .first-containt{
+            display: flex;
+            gap: 20px;
+        }
+        .about{
+            text-align: center;
+        }
+        .about-ex1{
+            padding: 40px;
+            background-color: rgb(251, 251, 200);
+            margin-bottom: 20pxS;
+        }
+        /*-----Social Media Button------- */
+        .fb-button{
+            text-decoration: none;
+            display: inline-flex;
+            background: #2a76e9;
+            color: white;
+            }
+
+       .instagram-button{
+        text-decoration: none;
+        display: inline-flex;
+        background-color: #4089fe;
+        color: white;
+        }
+
+        /*-------Project Section-------*/
+        .my-project{
+        padding: 40px;
+        background-color: rebeccapurple;
+        }
+        .project{
+        text-align: center;
+        }
+        .project-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 60px;
+        margin-top: 40px;
+        }
+
+        .project-card{
+        background-color: rgb(245, 249, 255);
+        padding: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s;
+        border:  1px solid #eee;
+        }
+
+        .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        /*--------Social button and ednd section---------*/
+        .contact{
+        padding-top: 10px;
+        }
+        
+
+        .social-button{
+            padding-top: 5px;
+        background-color: rgb(43, 42, 42);
+        text-align: center;
+        color: white;
+        padding-bottom: 10px;
+        }
+        .copyright{
+        text-align: start;
+        }
+
+
+    /*Basic styling for the links */
+      .ex1 a:hover {
+            background-color: #007bff; /* Changes background to blue */
+            color: white;               
+            transform: translateY(-2px);
+            }
+
+
+
+      .massage-box{
+       padding-left: 80px;
+       padding-right: 80px;
+       border-radius: 5px;
+       text-align: left;
+      }
+
+      .field-wrapper{
+        display: flex;
+        min-height: 50px;
+        flex-direction: column;
+        font-size: 1rem;
+        border-radius: 5px;
+        resize: none;
+      }
+
+      .submit{
+        padding-top: 10px;
+        border-radius: 4px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: solid 2px rgb(185, 66, 7);
+        }
+      

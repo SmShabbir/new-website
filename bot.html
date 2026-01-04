@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+<style>
+    :root {
+    --primary: #6366f1;
+    --dark: #0f172a;
+    --light: #f8fafc;
+    --gray: #64748b;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+/* Navbar Upgrade */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo { font-size: 1.5rem; font-weight: 800; }
+.logo span { color: var(--primary); }
+
+.nav-links { list-style: none; display: flex; align-items: center; }
+.nav-links li { margin-left: 30px; }
+.nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; transition: 0.3s; }
+.nav-links a:hover { color: var(--primary); }
+
+.hire-btn {
+    background: var(--primary);
+    color: white !important;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+/* Hero Section Upgrade */
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at top right, #e0e7ff, transparent);
+}
+
+.hero-content { text-align: center; }
+.greeting { color: var(--primary); font-weight: 600; letter-spacing: 2px; }
+.hero h1 { font-size: 4rem; margin: 10px 0; }
+.btn-secondary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover { background: var(--primary); color: white; }
+
+/* Skills Section */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.skill-tag {
+    background: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Glassmorphism Portfolio Cards */
+.portfolio { padding: 80px 8%; background: #fff; }
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 1px solid #eee;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card-img { height: 200px; background: #e2e8f0; } /* Replace with <img> later */
+.card-info { padding: 25px; }
+
+/* Social Icons Upgrade */
+.social-icons { margin: 30px 0; }
+.social-icons a {
+    font-size: 1.8rem;
+    color: white;
+    margin: 0 15px;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.social-icons a:hover { opacity: 1; color: var(--primary); }
+
+/* Mobile Menu Toggle */
+.menu-toggle { display: none; font-size: 1.5rem; cursor: pointer; }
+
+@media (max-width: 768px) {
+    .nav-links { display: none; flex-direction: column; position: absolute; top: 70px; left: 0; width: 100%; background: white; padding: 20px; box-shadow: 0 10px 10px rgba(0,0,0,0.05); }
+    .nav-links.active { display: flex; }
+    .nav-links li { margin: 15px 0; }
+    .menu-toggle { display: block; }
+    .hero h1 { font-size: 2.5rem; }
+}
+</style>    
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Dev<span>Store</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact" class="hire-btn">Hire Me</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello World, I'm</span>
+            <h1>Your Name</h1>
+            <p>Full-Stack Developer & UI/UX Enthusiast</p>
+            <div class="hero-btns">
+                <a href="#portfolio" class="btn-secondary">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="skill-tag">HTML5</div>
+        <div class="skill-tag">CSS3</div>
+        <div class="skill-tag">JavaScript</div>
+        <div class="skill-tag">React</div>
+        <div class="skill-tag">Node.js</div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="card-img"></div>
+                <div class="card-info">
+                    <h3>E-Commerce Site</h3>
+                    <p>Built with React & Stripe API</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-img"></div>
+                <div class="card-info">
+                    <h3>Task Manager</h3>
+                    <p>Productivity tool with Node.js</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-img"></div>
+                <div class="card-info">
+                    <h3>Weather App</h3>
+                    <p>Real-time data visualization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Let's build something together.</h2>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p class="copyright">© 2026 Designed by You</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const links = document.getElementById("navLinks");
+            links.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
