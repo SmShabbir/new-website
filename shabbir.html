@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shabbir Mahmud</title>
     <link rel="stylesheet" type="text/css" href="shabbir.css">
-
 </head>
 <body>
     <nav class="ex1">
        <h2><div><a href="">Home</a>
-            <a href="#about-ex1">About</a>
+            <a href="#about">About</a>
             <a href="#project">Work</a>
            </div>
             <h1 class="welcome">Welcome to our Website &#128525;</h1>
-            <h2><a href="">Creat account</a>
-           <a class="hire">Hire Me</a>
+            <h2><a href="#msg">Contact me</a>
+           <a class="hire" href="#social-button">Hire Me</a>
         </h2>
     </nav>
         
@@ -29,10 +28,11 @@
                     with expertise in the MERN stack. Always striving to expand knowledge and 
                     create meaningful solutions.
                 </p>
+                <a href="assets/Your_Resume.pdf" download class="resume-btn">Download Resume</a>
             </div>
         </div>
         
-      <h1 class="about">About Me</h1>
+      <h1 id="about" class="about">About Me</h1>
       <section class="about-ex1">
         <h3>Hi, I'm</h3>
         <h3>Shabbir Mahmud</h3>
@@ -80,10 +80,11 @@
          </div>
       </section><hr>
 
-      <div class="social-button">
-           <h2 class="contact">Contact Me</h2>
+     <section class="footer-area">
+      <div id="msg-button" class="msg-button">
+           <h2 id="msg" class="msg">Message Me</h2>
 
-        <section class="massage-box">
+          <section class="message-box">
              <div class="field-wrapper">
                 <label>Name:</label>
                 <input type="text" placeholder="Name" required>
@@ -93,27 +94,55 @@
                 <input type="email" placeholder="E-mail" required>
              </div>
              <div class="field-wrapper">
-                <label>Massage:</label>
-                <textarea placeholder="Massage" rows="2"></textarea>
+                <label>Message:</label>
+                <textarea placeholder="Message" rows="2"></textarea>
              </div>
              <button class="submit" type="submit">Send</button>
+             <hr>
+          </section>
+        </div>
 
+        <footer class="footer-container">
+            <div class="footer-section">
+                <h1 class="footer-logo">SM</h1>
+                <h3>Shabbir Mahmud</h3>
+            </div>
+
+            <div class="footer-section">
+                <h2>Contact</h2>
+                <P>Phone: +880 1760464318</P>
+                <p>E-mail: shabbirmahmud999888@gmail.com</p>
+            </div>
+
+            <div class="ADDRESS">
+                <h3>Mohammodpur, Dhaka</h3>
+                <p>Country: Dhaka</p>
+            </div>
+
+            <div class="social">
+                <h3>Social</h3>
+                <a class="social-button" href="https://www.facebook.com/shabbir.mahmud.142/" target="_blank">
+                <img src="assets/facebook.png">
+                </a>
+
+                <a class="social-button" href="https://www.instagram.com/_theshabbir_/" target="_blank">
+                <img src="assets/instagram.png">
+                </a>
+
+                <a class="social-button" href="https://bd.linkedin.com/in/s-m-shabbir-mahmud-b75270233?trk=public_profile_browsemap" target="-Blank">
+                 <img src="assets/linkedin4.png">  
+                </a>
+            </div>
+        </footer>
+            <p class="copyright">&copy; 2026 Your Name. All rights reserved.</p>
         </section>
 
+      
 
-              
+        
 
-            <a class="fb-button" href="https://www.facebook.com/shabbir.mahmud.142/" target="_blank">
-                <img src="assets/facebook.png">Visit facebook
-            </a>
-            <a class="instagram-button" href="https://www.instagram.com/_theshabbir_/" target="_blank">
-                <img src="assets/instagram.png">Visit Linkedin
-             </a>
-             <p>Mobile: +880 1760464318</p>
-             <p class="copyright">&copy; 2026 Your Name. All rights reserved.</p>
-      </div>
+        
 
-    
 
 </body>
 </html>
